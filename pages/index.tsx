@@ -12,11 +12,13 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
   return (
     <>
       <Page
-        title="💾 NOTE-TAKING GUIDE"
+        title="💾-Note-Taking-Guide"
         description={
           <>
             <p>
-              Repository hand-coded by Kittelsaa Nyampundu. <br /> This site does not use cookies, ads or third party scripts.
+              Repository hand-coded by Kittelsaa Nyampundu.
+              <br />
+              This site does not use cookies, ads or third party scripts.
             </p>
           </>
         }

@@ -3,7 +3,7 @@ import { useTheme } from "next-themes";
 import { Sun, Moon } from "lucide-react";
 
 function cx(...args: (string | boolean | undefined | null)[]): string {
-  return args.filter(Boolean).join(' ');
+  return args.filter(Boolean).join(" ");
 }
 
 const THEME_MAP = {
@@ -23,8 +23,8 @@ export const ThemeSelect = () => {
 
   useEffect(() => {
     setMounted(true);
-    if (!activeTheme || activeTheme === 'system') {
-      setTheme('light');
+    if (!activeTheme || activeTheme === "system") {
+      setTheme("light");
     }
   }, [activeTheme, setTheme]);
 
@@ -48,7 +48,7 @@ export const ThemeSelect = () => {
         {THEME_MAP.light.icon}
         {THEME_MAP.light.label}
       </button>
-      
+
       <button
         onClick={() => setTheme("dark")}
         className={cx(

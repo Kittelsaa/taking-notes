@@ -90,17 +90,19 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async (context) => {
   const { slug } = context.params as ContextProps;
   const mdxFiles = getAllMdx();
-  
+
   const sortedMdxFiles = mdxFiles.sort((a, b) => {
     const idA = a.frontMatter.id || 0;
     const idB = b.frontMatter.id || 0;
     return idA - idB;
   });
-  
-  const postIndex = sortedMdxFiles.findIndex((p) => p.frontMatter.slug === slug);
+
+  const postIndex = sortedMdxFiles.findIndex(
+    (p) => p.frontMatter.slug === slug
+  );
   const post = sortedMdxFiles[postIndex];
   const { frontMatter, content } = post;
-  
+
   const mdxContent = await serialize(content, {
     mdxOptions: {
       remarkPlugins: [remarkGfm],

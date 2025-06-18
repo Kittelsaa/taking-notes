@@ -21,10 +21,14 @@ export const Page: React.FC<PageProps> = ({
     <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link 
-          href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" 
-          rel="stylesheet" 
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+          rel="stylesheet"
         />
       </Head>
       <header
@@ -41,9 +45,9 @@ export const Page: React.FC<PageProps> = ({
             {formatDate(date)}
           </time>
         ) : null}
-        <h1 
+        <h1
           className="font-bold text-5xl"
-          style={{ fontFamily: 'Syne Mono, monospace' }}
+          style={{ fontFamily: "Syne Mono, monospace" }}
         >
           {title}
         </h1>

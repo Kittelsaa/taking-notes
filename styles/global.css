@@ -6,15 +6,15 @@ html,
 body,
 #__next {
   height: 100%;
-  background-color: #EAF1E8;
+  background-color: #eaf1e8;
   color: #363737;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 html.dark,
 html.dark body,
 html.dark #__next {
-  background-color: #2F3A2C;
-  color: #EAF1E8;
+  background-color: #2f3a2c;
+  color: #eaf1e8;
 }
 
 code[class*="language-"],
@@ -78,11 +78,11 @@ pre[class*="language-"] {
 .token.comment,
 .token.prolog,
 .token.cdata {
-  color: rgb(99, 119, 119); 
+  color: rgb(99, 119, 119);
   font-style: italic;
 }
 .token.punctuation {
-  color: #F8BCD6; 
+  color: #f8bcd6;
 }
 .namespace {
   color: rgb(178, 204, 214);
@@ -93,33 +93,33 @@ pre[class*="language-"] {
 }
 .token.symbol,
 .token.property {
-  color: #80FF00; 
+  color: #80ff00;
 }
 .token.tag,
 .token.operator,
 .token.keyword {
-  color: #80FF00; 
+  color: #80ff00;
 }
 .token.boolean {
-  color: #F8BCD6; 
+  color: #f8bcd6;
 }
 .token.number {
-  color: #F8BCD6; 
+  color: #f8bcd6;
 }
 .token.constant,
 .token.function,
 .token.builtin,
 .token.char {
-  color: #80FF00; 
+  color: #80ff00;
 }
 .token.selector,
 .token.doctype {
-  color: #F8BCD6; 
+  color: #f8bcd6;
   font-style: italic;
 }
 .token.attr-name,
 .token.inserted {
-  color: #80FF00; 
+  color: #80ff00;
   font-style: italic;
 }
 .token.string,
@@ -127,56 +127,60 @@ pre[class*="language-"] {
 .token.entity,
 .language-css .token.string,
 .style .token.string {
-  color: #80FF00; 
+  color: #80ff00;
 }
 .token.class-name,
 .token.atrule,
 .token.attr-value {
-  color: #F8BCD6;
+  color: #f8bcd6;
 }
 .token.regex,
 .token.important,
 .token.variable {
-  color: #363737; 
+  color: #363737;
 }
 .token.important,
 .token.bold {
   font-weight: bold;
-  color: #363737; 
+  color: #363737;
 }
 .token.italic {
   font-style: italic;
 }
 
-
-h1, h2, h3, h4, h5, h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .title {
-  color: #363737; 
+  color: #363737;
 }
 h2 {
-  font-family: 'Syne Mono', monospace;
+  font-family: "Syne Mono", monospace;
 }
-html.dark h1, 
-html.dark h2, 
-html.dark h3, 
-html.dark h4, 
-html.dark h5, 
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
 html.dark h6,
 html.dark .title {
-  color: #EAF1E8;
+  color: #eaf1e8;
 }
 html.dark p,
 html.dark span,
 html.dark div:not([class*="token"]) {
-  color: #EAF1E8;
+  color: #eaf1e8;
 }
 html.dark .token.regex,
 html.dark .token.important,
 html.dark .token.variable {
-  color: #EAF1E8;
+  color: #eaf1e8;
 }
 html.dark .token.important,
 html.dark .token.bold {
   font-weight: bold;
-  color: #EAF1E8;
+  color: #eaf1e8;
 }
