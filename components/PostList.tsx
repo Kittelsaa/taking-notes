@@ -19,7 +19,7 @@ export const PostList: React.FC<PostListProps> = ({ posts }) => {
     <ul
       className={cx(
         "divide-y -my-8",
-        "divide-gray-200",
+        "divide-dark-600",
         "dark:divide-gray-700"
       )}
     >
