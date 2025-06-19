@@ -34,7 +34,7 @@ export const Page: React.FC<PageProps> = ({
       <header
         className={cx(
           "mt-12 mb-8 pb-8 border-b",
-          "border-gray-200",
+          "border-gray-300",
           "dark:border-gray-700"
         )}
       >
@@ -46,8 +46,8 @@ export const Page: React.FC<PageProps> = ({
           </time>
         ) : null}
         <h1
-          className="font-bold text-5xl"
-          style={{ fontFamily: "Syne Mono, monospace" }}
+          className="text-5xl"
+          style={{ fontFamily: "Syne Mono, monospace"  }}
         >
           {title}
         </h1>

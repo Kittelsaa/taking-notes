@@ -12,11 +12,19 @@ const Home: NextPage<HomeProps> = ({ posts }) => {
   return (
     <>
       <Page
-        title="💾-Note-Taking-Guide"
+        title="💾-Notes-Taking-Guide"
         description={
           <>
             <p>
-              Repository hand-coded by Kittelsaa Nyampundu.
+              Repository hand-coded by Kittelsaa Nyampundu (
+              <a
+                href="https://github.com/Kittelsaa/taking-notes"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Link
+              </a>
+              ).
               <br />
               This site does not use cookies, ads or third party scripts.
             </p>

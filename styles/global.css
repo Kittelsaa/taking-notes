@@ -159,6 +159,7 @@ h6,
 }
 h2 {
   font-family: "Syne Mono", monospace;
+  font-weight: 400;
 }
 html.dark h1,
 html.dark h2,

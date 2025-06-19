@@ -19,8 +19,8 @@ export const PostList: React.FC<PostListProps> = ({ posts }) => {
     <ul
       className={cx(
         "divide-y -my-8",
-        "divide-dark-600",
-        "dark:divide-gray-700"
+        "divide-gray-300", 
+        "dark:divide-gray-600" 
       )}
     >
       {sortedPosts.map((post) => {
