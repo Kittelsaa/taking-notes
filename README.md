@@ -27,7 +27,7 @@ npm run dev # or yarn dev / pnpm dev
 
 ## Project Structure
 This project follows a clear, organized structure common in Next.js applications:
-
+```
 ├── .next/              # Next.js build output (automatically generated)
 ├── components/         # Reusable React components for UI and content rendering
 │   ├── Footer.tsx
@@ -65,6 +65,7 @@ This project follows a clear, organized structure common in Next.js applications
 ├── postcss.config.js   # PostCSS configuration
 ├── tailwind.config.js  # Tailwind CSS configuration
 └── tsconfig.json       # TypeScript configuration
+```
 
 ## Customization & Content Management
 This section outlines how to update and manage the content and appearance of your note-taking guide.
